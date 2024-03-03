@@ -1,0 +1,17 @@
+# Ignore build directories
+/build/
+build
+/out/
+
+# Ignore build artifacts
+*.o
+*.out
+*.exe
+
+# Ignore Makefile backup files
+*~
+
+# Ignore any files generated during the build process
+.DS_Store
+Thumbs.db
+Makefile
